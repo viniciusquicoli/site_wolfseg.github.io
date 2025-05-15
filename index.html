@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles/output.css">
+
+    <title>Wolf Seg</title>
+
+    <!-- <link rel="stylesheet" href="./styles/style.css" > -->
+    <style>
+        html {
+          scroll-behavior: smooth;
+        }
+      </style>
+  </head>
+
+  <body class="bg-black text-white scroll-smooth">
+ 
+
+    <!-- Header -->
+    <header class="bg-black shadow sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+          
+          <!-- Logo -->
+          <div class="flex items-center space-x-4">
+            <img src="/assets/logo_wolf_seg.png" alt="Logo" class="h-12"> 
+          </div>
+      
+          <!-- Desktop nav -->
+          <nav class="space-x-6 hidden md:flex">
+            <a href="#services" class="text-white-700 hover:text-blue-600">Quem somos</a>
+            <a href="#about" class="text-white-700 hover:text-blue-600">Nossos serviços</a>
+            <a href="#contact" class="text-white-700 hover:text-blue-600">Contato</a>
+          </nav>
+      
+          <!-- Hamburger Button
+          <button id="menu-btn" class="md:hidden text-gray-700 focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+          </button> -->
+        </div>
+      
+        <!-- Mobile Nav -->
+        <div id="mobile-menu" class="md:hidden hidden px-4 pb-4">
+          <a href="#services" class="block py-2 text-gray-700 hover:text-blue-600">Quem somos</a>
+          <a href="#about" class="block py-2 text-gray-700 hover:text-blue-600">Nossos serviços</a>
+          <a href="#contact" class="block py-2 text-gray-700 hover:text-blue-600">Contato</a>
+        </div>
+      </header>
+      
+
+    <!-- Introduction Section -->
+
+    <section id="intro" class="p-8 text-center">
+    <h1 class="text-4xl font-bold mb-4">Segurança especializada para áreas rurais</h1>
+    <p class="mb-4">Na Wolf, protegemos o que há de mais valioso: a sua tranquilidade.</p>
+    <p class="mb-4">Com anos de experiência atuando nas áreas mais remotas e desafiadoras do país, somos referência em segurança privada para propriedades rurais de grande extensão. Nossa missão é simples e inegociável: oferecer vigilância estratégica, presença constante e resposta rápida, com discrição e excelência.</p>
+    <button id="whatsappContact" class="bg-white text-black px-4 py-2 rounded hover:bg-gray-300 transition">Nos envie um WhatsApp!</button>
+  </section>
+    <!-- Products Section -->
+  <section id="products" class="p-8 text-center">
+    <h2 class="text-3xl font-bold mb-4">Nossos serviços</h2>
+    <p class="mb-4">Atendemos um público exigente, acostumado ao mais alto padrão de serviço — incluindo proprietários de casas de veraneio, fazendas produtivas e reservas privadas. Somos reconhecidos pela nossa confiabilidade, pelo rigor operacional e por soluções sob medida que respeitam a privacidade e a rotina dos nossos clientes.</p>
+    
+    <!-- <button class="bg-white text-black px-4 py-2 rounded hover:bg-gray-300 transition">Orçamento via WhatsApp</button> -->
+  </section>
+
+  <section class="p-8 grid md:grid-cols-3 gap-4 text-center">
+    <div>
+      <img src="/assets/homem_dirigindo_estrada_rural.png" loading="lazy" alt="Value 1" class="mx-auto mb-2 rounded shadow-lg" />
+      <p>Escolta Rural Especializada</p>
+      <p>Acompanhamento seguro de pessoas, cargas e ativos em deslocamentos por áreas de difícil acesso, garantindo proteção do ponto de origem ao destino. Nossa equipe atua com veículos adaptados, comunicação contínua e rotas estratégicas para cada necessidade.</p>
+    </div>
+    <div>
+      <img src="/assets/seguranca_rural_6.png" loading="lazy" alt="Value 2" class="mx-auto mb-2 rounded shadow-lg" />
+      <p>Monitoramento Preventivo de Propriedades</p>
+      <p>Vigilância ativa de grandes propriedades com patrulhamento em horários críticos, checagens perimetrais e relatórios detalhados. Uma solução ideal para residências de veraneio ou fazendas que ficam longos períodos desocupadas, reduzindo drasticamente o risco de invasões ou furtos.</p>
+    </div>
+    <div>
+      <img src="/assets/seguranca_rural_4.png" loading="lazy" alt="Value 3" class="mx-auto mb-2 rounded shadow-lg" />
+      <p>Análise de Risco e Planejamento de Segurança</p>
+      <p>Avaliação completa do cenário da sua propriedade, identificando vulnerabilidades e propondo soluções práticas e eficazes. Inclui mapeamento de acesso, análise de rotina, tecnologia complementar e recomendações personalizadas para elevar o nível de proteção sem interferir na sua privacidade.</p>
+    </div>
+  </section>
+    <!-- Contact Section -->
+  <section id="contact" class="p-8 text-center">
+    <h2 class="text-3xl font-bold mb-4">Entre em contato</h2>
+    <p class="mb-4">Email: diretoria.wolfseg@gmail.com e WhatsApp (19) 99478-0673</p>
+    <!-- <div class="flex justify-center gap-4 mt-4">
+      <a href="#" aria-label="Facebook"><img src="/public/facebook-icon.png" loading="lazy" class="h-6" /></a>
+      <a href="#" aria-label="Instagram"><img src="/public/instagram-icon.png" loading="lazy" class="h-6" /></a>
+      <a href="#" aria-label="LinkedIn"><img src="/public/linkedin-icon.png" loading="lazy" class="h-6" /></a>
+    </div> -->
+    <button id="emailContact"class="mt-4 bg-white text-black px-4 py-2 rounded hover:bg-gray-300 transition">Enviar um email</button>
+  </section>
+    <!-- Footer -->
+  <footer class="text-center p-4 border-t border-gray-700 mt-4">
+      <p>&copy; 2025 WOLF SEG LTDA. All rights reserved. CNPJ 57.715.897/0001-57</p>
+      <p>R CELESTINO DE CICCO, JARDIM BELMONTE, 92, CEP 13.107-020</p>
+  </footer>
+  </body>
+    <script src="script.js"></script>
+  </html>
+  
